@@ -28,6 +28,7 @@
 1. [template_for_rescript](/template_for_rescript) : rescript만 이용하면 되는 프로젝트를 위한 템플릿입니다.
 1. [template_for_react](/template_for_react) : rescript + react 를 이용하는 경우에 사용하는 템플릿입니다.
 1. [template_for_react_scripts](/template_for_react_scripts) : rescript + react, react script 를 번들러로 사용하는 템플릿 입니다.
+
 ## 안내
 
 공식 문서는 [이 곳](https://rescript-lang.org/) 입니다.
@@ -51,8 +52,6 @@ npx rescript convert <파일경로>
 ## rescript-vscode
 
 이 프로젝트의 개발은 vscode를 이용하고 있습니다. 개발을 시작하기 전에 [rescript-vscode](https://marketplace.visualstudio.com/items?itemName=chenglou92.rescript-vscode) 를 설치하고 사용해주세요.
-
-
 
 ## TODO
 

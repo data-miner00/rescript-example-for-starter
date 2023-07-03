@@ -9,7 +9,7 @@ rescript는 순수 자바스크립트와 자바스크립트 모듈과 통신할 
 단순한 두 값의 합을 더하는 모듈을 만들고 rescript 소스 코드에서 사용합니다.
 
 ```js
-export const sum = (a, b) => a + b
+export const sum = (a, b) => a + b;
 ```
 
 `sum` 모듈의 전체 코드입니다. 이 코드를 rescript 에서 가져와 사용하려면 다음과 같이 합니다.
@@ -64,6 +64,5 @@ let mininum = minFromLodash(data)
 `minimum` 은 lodash의 min 모듈을 통해 -1을 결과로 보여줍니다.
 
 rescript 모듈 시스템의 아쉬운 점은 모듈의 jsdoc 등의 타입 힌트를 이용할 수 없는 것 입니다. 그래도 @module 로 가져올 때 원하는 규격을 지정할 수 있으므로 복잡한 타입을 지정할 필요가 없는 경우에는 문제가 적을 것 같습니다.
-
 
 한국어 문서는 [이 문서](https://green-labs.github.io/rescript-in-korean/JavaScript-Interop)를 살펴보세요.

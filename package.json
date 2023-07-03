@@ -5,7 +5,7 @@
     "start": "turbo run start",
     "build": "turbo run build",
     "test": "turbo run test",
-    "format": "prettier --write \"**/*.{md}\""
+    "format": "prettier --write \"**/*.md\""
   },
   "devDependencies": {
     "turbo": "^1.10.7",

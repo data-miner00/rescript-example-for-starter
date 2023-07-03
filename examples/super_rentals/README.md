@@ -9,7 +9,6 @@ Ember.js 의 튜토리얼 프로젝트인 [Super Rentals](https://ember-super-re
 - Contact 페이지
 - RentalDetail 페이지
 
-
 ## Home페이지
 
 Home 페이지는 상단에 Header와 Hero영역, 검색 그리고 목록을 가지고 있습니다.
@@ -37,8 +36,6 @@ bs-fetch는 HTTP 요청을, bs-json은 JSON을 파싱하기 위한 도구로 사
 @scope("JSON") @val
 external parseResponse: response => {"message": array<string>} = "parse"
 ```
-
-
 
 ### API 응답이 객체인 경우
 
@@ -81,7 +78,6 @@ let fetchCat = () =>
 let _ = fetchCat()->Js.Promise.then_(data => data.file->Js.log->Js.Promise.resolve, _)
 ```
 
-
 참고 : https://kevanstannard.github.io/rescript-blog/fetch-json.html
 
 rescript react와 함께 사용하는 경우에 타입때문에 약간은 고생한 부분이 있습니다
@@ -93,8 +89,6 @@ API를 이용해 데이터를 가져와야하는 경우에 최초 상태가 None
 ```
 let (rental, setRental) = useState(() => None)
 ```
-
-
 
 ### API 응답이 배열인 경우
 
@@ -118,7 +112,7 @@ let (rental, setRental) = useState(() => None)
     "bedrooms": 15,
     "image": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Crane_estate_(5).jpg",
     "description": "This grand old mansion sits on over 100 acres of rolling hills and dense redwood forests."
-  },
+  }
   // ...
 ]
 ```
@@ -139,10 +133,8 @@ module Decode = {
 }
 ```
 
-
 Js.Json.classify의 결과는 [tagged_t](https://rescript-lang.org/docs/manual/latest/api/js/json#classify) 입니다. tagged_t 의 variant에는 JSONArray 가 있습니다.
 패턴 매칭의 결과가 JSONArray variant 인 경우에 객체 변환과 동일하게 작업합니다.
-
 
 ```
 module Decode = {

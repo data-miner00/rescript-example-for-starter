@@ -5,7 +5,6 @@
 
 https://rescript-lang.org/docs/react/latest/router
 
-
 ```jsx
 @react.component
 let make = () => {
