@@ -1,0 +1,13 @@
+{
+  "name": "rescript-template",
+  "type": "module",
+  "scripts": {
+    "start": "rescript build -w",
+    "build": "rescript build",
+    "clean": "rescript clean"
+  },
+  "devDependencies": {
+    "rescript": "^9.1.3"
+  },
+  "dependencies": {}
+}

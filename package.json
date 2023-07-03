@@ -1,0 +1,14 @@
+{
+  "name": "rescript-template-for-starters",
+  "description": "처음 시작하는 사람을 위한 ReScript 예제 프로젝트 입니다.",
+  "scripts": {
+    "start": "turbo run start",
+    "build": "turbo run build",
+    "test": "turbo run test",
+    "format": "prettier --write \"**/*.{md}\""
+  },
+  "devDependencies": {
+    "turbo": "^1.10.7",
+    "prettier": "^2.8.8"
+  }
+}
