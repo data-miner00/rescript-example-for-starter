@@ -8,26 +8,26 @@
 
 ## 소개
 
-이 저장소의 프로젝트 내용입니다. 각 디렉터리안에서 프로젝트를 실행해보세요
+이 저장소의 프로젝트 내용입니다. `examples` 디렉터리 안에서 각 프로젝트를 실행해보세요. 게다가, `labs/sandbox` 는 ReScript 언어를 시도할 수 있습니다.
 
-1. [hello_world](/hello_world) : rescript + react 를 이용해서 브라우저에 Hello World 를 출력합니다.
-1. [unicode_react](/unicode_react) : rescript + react 에서 CJK 출력은 백틱 (`) 을 사용하세요.
-1. [rescript_react_router](/rescript_react_router) : rescript + react 를 이용해 클라이언트사이드 라우팅을 구현합니다.
-1. [counter](/counter) : rescript + react 를 이용한 간단한 카운터입니다.
-1. [simple_todo](/simple_todo) : rescript + react 를 이용한 간단한 Todo 리스트입니다.
-1. [tailwindcss](/tailwindcss) : rescript + react 프로젝트에 외부 의존성인 tailwindcss 를 설치하는 예제입니다.
-1. [data_fetch](/data_fetch) : bs-fetch와 bs-json을 이용한 Remote API 요청 예제입니다.
-1. [json_decode](/json_decode) : JSON 응답을 rescript 의 type을 가진 let-binding으로 변환하는 예제입니다.
-1. [external_modules](/external_modules) : rescript의 외부 모듈 테스트 예제입니다.
-1. [super_rentals](/super_rentals) : rescript + react 를 이용한 간단한 웹서비스입니다.
-1. [access_js_module](/access_js_module) : 자바스크립트 ES6 모듈과 npm 으로 설치한 lodash를 rescript에서 가져와 사용하는 예제입니다.
+1. [hello_world](/examples/hello_world) : rescript + react 를 이용해서 브라우저에 Hello World 를 출력합니다.
+1. [unicode_react](/examples/unicode_react) : rescript + react 에서 CJK 출력은 백틱 (`) 을 사용하세요.
+1. [rescript_react_router](/examples/rescript_react_router) : rescript + react 를 이용해 클라이언트사이드 라우팅을 구현합니다.
+1. [counter](/examples/counter) : rescript + react 를 이용한 간단한 카운터입니다.
+1. [simple_todo](/examples/simple_todo) : rescript + react 를 이용한 간단한 Todo 리스트입니다.
+1. [tailwindcss](/examples/tailwindcss) : rescript + react 프로젝트에 외부 의존성인 tailwindcss 를 설치하는 예제입니다.
+1. [data_fetch](/examples/data_fetch) : bs-fetch와 bs-json을 이용한 Remote API 요청 예제입니다.
+1. [json_decode](/examples/json_decode) : JSON 응답을 rescript 의 type을 가진 let-binding으로 변환하는 예제입니다.
+1. [external_modules](/examples/external_modules) : rescript의 외부 모듈 테스트 예제입니다.
+1. [super_rentals](/examples/super_rentals) : rescript + react 를 이용한 간단한 웹서비스입니다.
+1. [access_js_module](/examples/access_js_module) : 자바스크립트 ES6 모듈과 npm 으로 설치한 lodash를 rescript에서 가져와 사용하는 예제입니다.
 1. [HackerNews](https://github.com/ChangJoo-Park/hackernews-rescript) : rescript + react를 이용한 해커뉴스의 일부 클론 프로젝트입니다.
 
 ## 템플릿
 
-1. [template_for_rescript](/template_for_rescript) : rescript만 이용하면 되는 프로젝트를 위한 템플릿입니다.
-1. [template_for_react](/template_for_react) : rescript + react 를 이용하는 경우에 사용하는 템플릿입니다.
-1. [template_for_react_scripts](/template_for_react_scripts) : rescript + react, react script 를 번들러로 사용하는 템플릿 입니다.
+1. [template_for_rescript](/examples/template_for_rescript) : rescript만 이용하면 되는 프로젝트를 위한 템플릿입니다.
+1. [template_for_react](/examples/template_for_react) : rescript + react 를 이용하는 경우에 사용하는 템플릿입니다.
+1. [template_for_react_scripts](/examples/template_for_react_scripts) : rescript + react, react script 를 번들러로 사용하는 템플릿 입니다.
 
 ## 안내
 
