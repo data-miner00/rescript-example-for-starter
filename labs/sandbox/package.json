@@ -1,0 +1,24 @@
+{
+  "name": "sandbox",
+  "version": "0.0.1",
+  "keywords": [
+    "rescript"
+  ],
+  "license": "MIT",
+  "author": "",
+  "scripts": {
+    "build": "rescript",
+    "clean": "rescript clean",
+    "res:dev": "rescript build -w",
+    "node:dev": "nodemon ./src/Demo.bs.js",
+    "dev": "concurrently --kill-others \"pnpm res:dev\" \"pnpm node:dev\""
+  },
+  "dependencies": {
+    "@rescript/core": "^0.4.0",
+    "rescript": "10.1.4"
+  },
+  "devDependencies": {
+    "nodemon": "3.0.1",
+    "concurrently": "8.2.0"
+  }
+}
